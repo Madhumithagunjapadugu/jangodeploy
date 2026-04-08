@@ -102,7 +102,7 @@ else:
             # "active_plugin":"mysql_native_password",
             "password":"root",
             "host":"localhost",
-            "port":"3306"
+            "port":"3308"
 
         }
     }
