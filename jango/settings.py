@@ -98,11 +98,11 @@ else:
             "ENGINE":"django.db.backends.mysql",
             "NAME":"pdbc",
             "USER":"root",
-            # "database":"pdbc",
-            # "active_plugin":"mysql_native_password",
-            "password":"root",
-            "host":"localhost",
-            "port":"3308"
+
+        
+            "PASSWORD":"root",
+            "HOST":"localhost",
+            "PORT":"3306"
 
         }
     }

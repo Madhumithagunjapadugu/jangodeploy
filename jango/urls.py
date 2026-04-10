@@ -21,5 +21,5 @@ from newapp.views import emp,emp_delete
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",emp,name='home_page'),
-    path("delete/<int:id>",emp_delete,name="delete")
+    path("delete/<int:id>/",emp_delete,name="delete")
 ]
