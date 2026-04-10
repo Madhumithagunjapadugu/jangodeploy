@@ -16,10 +16,11 @@
                 <th>Emp_Dept</th>
             </tr>
           {% for x in data %}
-          <tr>{{emp.x_id}}</tr>
-          <tr>{{x.emo_name}}</tr>
-          <tr>{{x.emp_salary}}</tr>
-          <tr>{{x.emp_dept}}</tr>
+          <tr>
+          <td>{{emp.x_id}}</td>
+          <td>{{x.emo_name}}</td>
+          <td>{{x.emp_salary}}</td>
+          <td>{{x.emp_dept}}</td>
           </tr>
           {% endfor %}
         </table>
