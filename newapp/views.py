@@ -17,3 +17,8 @@ def emp(request):
         
             
 
+def emp_delete(request,id):
+    data=employee.objects.get(id=id)
+    data.delete()
+    return redirect(request,"home_page")
+

@@ -14,6 +14,7 @@
                 <th>Emp_name</th>
                 <th>Empsalary</th>
                 <th>Emp_Dept</th>
+                <th>Em_Delete</th>
             </tr>
           {% for x in data %}
           <tr>
@@ -21,6 +22,7 @@
           <td>{{x.emp_name}}</td>
           <td>{{x.emp_salary}}</td>
           <td>{{x.emp_dept}}</td>
+          <td>{% url 'delete' x.id}</td>
           </tr>
           {% endfor %}
         </table>
